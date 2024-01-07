@@ -10,4 +10,4 @@ Foto, Id de vaca, Intervenciones sanitarias, lactancia, partos, servicios reprod
 
 entre otros posibles extras.
 
-FUCK OFF besitos :*
+FUCK OFF besito
