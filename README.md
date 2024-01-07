@@ -10,4 +10,5 @@ Foto, Id de vaca, Intervenciones sanitarias, lactancia, partos, servicios reprod
 
 entre otros posibles extras.
 
-FUCK OFF besito
+
+La wep debe desarrollarse para un minimo de 10 usurio por lo que hay que desarrollar un sistema de crear usurio/seleccionar usurio, que cada usurio tenga su cuenta y pueda ver o modificar los datos de la web
