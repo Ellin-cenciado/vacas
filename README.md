@@ -9,3 +9,5 @@ la tabla tendra distintas columnas, las cuales seran:
 Foto, Id de vaca, Intervenciones sanitarias, lactancia, partos, servicios reproductivos, fecha de nacimiento, 
 
 entre otros posibles extras.
+
+FUCK OFF besitos :*
