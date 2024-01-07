@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    
     <link rel="stylesheet" href="./styles.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,24 +13,34 @@
 <body>
     <div class="login">
         <fieldset>
-            <div class="Login-text">
-                <h1>Log In</h1>
-            </div>    
+            <div class="back-arrow hidden-div" id="back-arrow" onclick="ocultarUsuarioContrasena()">
+                ←Log in
+            </div>
+                <h1 id="login-text">Log In</h1>   
                 <form method="post">
                     <div class="user-container">
                         <label for="username">Username</label><br/>
                         <input type="text" name="username" id="username" placeholder="Max123" required="true"/><br/>
                     </div>
+                    <div class="user-container hidden-div">
+                        <label for="email">Email</label><br/>
+                        <input type="text" name="email" id="email" placeholder="your-email@example.com"/>
+                    </div>
                     <div class="user-container">
                         <label for="password">Password</label><br/>
                         <input type="password" name="password" id="password" placeholder="••••" required="true"/><br/>
                     </div>
+                    <div class="user-container hidden-div">
+                        <label for="repeat-password">Repeat password</label><br/>
+                        <input type="password" name="repeat-password" id="repeat-password" placeholder="••••"/><br/>
+                    </div>
                     <div>
-                        <input type="submit" name="submit" id="submit" value="Log in"/>
+                        <input type="submit" name="submit" id="submit" onclick="comparePasswords()" value="Log in"/>
                     </div>
                 </form>
-                <a class="signup-button" href="./user-singup.html">Sign up</a>
+                <button class="boton" onclick="mostrarUsuarioContrasena()" id="signup-button">Sign up</button>
         </fieldset>
     </div>
+    <script rel="script" src="./js/user-login.js"></script>
 </body>
 </html>

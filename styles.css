@@ -112,24 +112,18 @@ label{
 #submit:active{
     background-color: #a4abb4;
 }
-.signup-button{
-    text-decoration: none;
-    font-size: 14px;
+
+.hidden-div{
+    display:none;
+}
+.back-arrow{
+    display:none;
+    flex-direction: row;
+    justify-content: left;
     position:relative;
-    top:2%;
-    text-align: center;
-    color:#0d1321;
-    background-color: #3e5c76;
-    border-radius: 7px;
-    border:hidden;
-    padding: 10px;
-    margin-left: 30%;
-    margin-right: 30%;
+    right: 96px;
 }
-.signup-button:hover{
-    background-color: #748cab;
-    cursor: pointer;
-}
-.signup-button:active{
-    background-color: #a4abb4;
+.back-arrow:hover{
+    text-decoration: underline;
+    cursor:pointer;
 }
