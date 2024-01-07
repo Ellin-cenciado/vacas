@@ -9,10 +9,10 @@ sumar.addEventListener("click" ,() => {
     cantidad.innerHTML = numero; 
 });
 restar.addEventListener("click" ,() => {
-    numero--;
     if(numero == 0){
         return 0;
     }else{
+        numero--;
         cantidad.innerHTML = numero;
     }
      
