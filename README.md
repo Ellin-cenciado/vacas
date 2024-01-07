@@ -10,3 +10,6 @@ Lista de Tareas
 1) Desarrollar un menu de creacion de usuario/registrarse
 2) Desarrollar un menu de seleccionar usuario
 3) hacer la tabla/grid para colocar los inputs de los datos
+
+
+1) Los datos necesarios para la creacion de usuario seran Nombre, Correo electronico y contraseña 
