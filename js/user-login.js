@@ -33,9 +33,3 @@ function ocultarUsuarioContrasena(){
 
     backArrow.style.display = "none";
 }
-
-function comparePasswords(){
-    if(password != repeatPassword){
-        alert("Passwords do not match, try again");
-    }
-}
