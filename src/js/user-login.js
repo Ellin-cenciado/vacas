@@ -7,6 +7,36 @@ const email = document.getElementById("email");
 const loginText = document.getElementById("login-text");
 const backArrow = document.getElementById("back-arrow");
 
+const express= require("express");
+const app = express();
+const path = require("path");
+
+app.listen(27017,() => {
+    console.log("port connected");
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function mostrarUsuarioContrasena(){
 
     for(let item of hiddenDiv){
