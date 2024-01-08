@@ -15,3 +15,19 @@ Lista de Tareas
 
 
 1) Los datos necesarios para la creacion de usuario seran Nombre, Correo electronico y contraseña
+
+To do:
+-Descripcion vaca (raza, descripcion breve)
+-Vacas Entrega (hibernada)
+-estado enferma/healthy
+-Vacunas, tratamientos
+-Capadura
+-ubicacion
+-ultima comida
+-engorde
+-guias (papeles)
+-perdidas (mortalidad)
+-tipo de vaca
+-dieta
+-Tiempo que lleva en el campo
+-limpieza de suelo
