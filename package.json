@@ -1,0 +1,24 @@
+{
+  "name": "vacas",
+  "version": "1.0.0",
+  "description": "Proyecto hecho en conjunto con Facundo Farias, Alejandro Pitt y Javier Benitez. En este proyecto vamos a intentar hacer una pagina para controlar el ganado de un campo Algunos datos que un usuario de la pagina debera colocar van a ser: foto de la vaca, numero de vaca, intervenciones sanitarias, periodo de lactancia, partos, servicios reproductivos, fecha de nacimiento, entre otros. La pagina debera tener un sistema de creacion de usuario, un sistema de seleccionar usuario. Los distintos usuarios van a trabajar sobre una misma tabla/grid donde colocaran los datos del ganado, por lo que todos los usuarios podran ver y trabajar sobre la pagina",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
